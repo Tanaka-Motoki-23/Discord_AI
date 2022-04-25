@@ -126,7 +126,7 @@ Discordサーバー内のチャンネルに送信された内容を自動で取�
 ```
 ![スクリーンショット 2022-04-25 194623](https://user-images.githubusercontent.com/104173409/165074530-7936bec4-4c1f-48c1-b304-00d93d261cc1.png)
 
-## GPT-3を利用した小説生成AI
+## wavenetを利用したテキストチャンネル自動読み上げ機能
 
 テキストチャンネルに送信したメッセージを音声データに変換してボイスチャンネルで発言します。　
 音声合成にはGCPのwavenetを用いたTTSを利用しています。
@@ -136,4 +136,13 @@ Discordサーバー内のチャンネルに送信された内容を自動で取�
 
 #ボイスチャンネル切断
 <prefix>disconnect
+```
+
+## WplframAlphaを利用した検索機能
+
+入力に対する計算結果を返信します。
+計算にはWolframAlpha APIを利用しています。
+```
+#検索
+<prefix>wolframalpha "target"
 ```

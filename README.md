@@ -72,7 +72,7 @@ export TTS_CHANNEL_ID = 11111111111111113
 
 #匿名機能を利用して会話するテキストチャンネルID
 export ANONYMOUS_CHANNEL_ID = 11111111111111114
-
+```
 #### dockerの設定
 dockerコンテナのビルド
 ```

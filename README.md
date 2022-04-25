@@ -7,6 +7,7 @@ Discord_AI 開発用プロジェクトレポジトリ
 git clone https://github.com/Tanaka-Motoki-23/Discord_AI.git
 ```
 ##Botの機能詳細
+
 `./Discord_AI/README.md`に詳細を記載しています
 
 ## Requirements

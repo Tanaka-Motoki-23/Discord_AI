@@ -1,0 +1,22 @@
+version: "3"
+services:
+  discord_bot_00:
+    container_name: discord_bot_00
+    build:
+      context: .
+      dockerfile: ./discord_bot/Dockerfile
+      target: gpu
+    image: discord_bot_00
+    volumes:
+      - ./discord_bot/:/usr/src
+      - ./resources/:/usr/resources
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              capabilities: [gpu]
+    tty: true
+    env_file:
+      - ./.envrc
+    shm_size: '56gb'

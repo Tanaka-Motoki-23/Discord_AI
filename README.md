@@ -125,3 +125,15 @@ Discordサーバー内のチャンネルに送信された内容を自動で取�
 <prefix>STORY "タイトル" "主人公名" "長さ(short,middle,long,verylong)"
 ```
 ![スクリーンショット 2022-04-25 194623](https://user-images.githubusercontent.com/104173409/165074530-7936bec4-4c1f-48c1-b304-00d93d261cc1.png)
+
+## GPT-3を利用した小説生成AI
+
+テキストチャンネルに送信したメッセージを音声データに変換してボイスチャンネルで発言します。　
+音声合成にはGCPのwavenetを用いたTTSを利用しています。
+```
+#ボイスチャンネル接続
+<prefix>connect
+
+#ボイスチャンネル切断
+<prefix>disconnect
+```

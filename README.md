@@ -106,6 +106,6 @@ Botクライアントの起動
 make start_bot
 ```
 
-#Botの機能詳細
+# Botの機能詳細
 
 `./Discord_AI/README.md`に詳細を記載しています

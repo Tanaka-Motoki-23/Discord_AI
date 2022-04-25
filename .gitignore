@@ -135,9 +135,10 @@ dmypy.json
 
 poetry.lock
 
-./resources/
-./discord_bot/latest.jpg
-./discord_bot/setup.cfg
-./discord_bot/src/GCP/
+#Discord bot resource
+resources/
+discord_bot/latest.jpg
+discord_bot/setup.cfg
+discord_bot/src/GCP/
 
 !.gitkeep

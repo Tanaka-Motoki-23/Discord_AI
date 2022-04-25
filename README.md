@@ -58,7 +58,8 @@ export OPENAI_API_KEY = '*******************************************************
 export OPENAI_ORGANIZATION  = "***************************"
 
 #Botを利用するサーバーの設定
-# Discrord Botのアクセストークン see:https://discordpy.readthedocs.io/ja/latest/discord.html
+#Discrord Botのアクセストークン
+#see:https://discordpy.readthedocs.io/ja/latest/discord.html
 export TOKEN = '***********************************************************************'
 
 #自然言語対話Botを利用するチャンネルID

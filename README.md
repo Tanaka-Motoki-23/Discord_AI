@@ -1,7 +1,7 @@
 # Discord_AI
 Discord_AI 公開用プロジェクトレポジトリ
 
-## レポジトリのクローン
+## リポジトリのクローン
 
 ```bash
 git clone https://github.com/Tanaka-Motoki-23/Discord_AI.git

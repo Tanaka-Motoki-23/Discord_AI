@@ -6,9 +6,6 @@ Discord_AI 開発用プロジェクトレポジトリ
 ```bash
 git clone https://github.com/Tanaka-Motoki-23/Discord_AI.git
 ```
-##Botの機能詳細
-
-`./Discord_AI/README.md`に詳細を記載しています
 
 ## Requirements
 
@@ -110,3 +107,6 @@ Botクライアントの起動
 make start_bot
 ```
 
+##Botの機能詳細
+
+`./Discord_AI/README.md`に詳細を記載しています

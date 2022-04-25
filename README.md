@@ -105,7 +105,9 @@ Botクライアントの起動
 ```
 make start_bot
 ```
-
+- - -
 # Botの機能詳細
+## GPT-2を利用した自然言語対話AI
+Discordサーバー内のFREE_TALK_CHANNEL_IDに送信された内容を自動で取得し、対話文を生成して返信します。
 
-`./Discord_AI/README.md`に詳細を記載しています
+

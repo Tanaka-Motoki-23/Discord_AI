@@ -47,7 +47,7 @@ export IMAGE_ARCHIVE_PATH = '../resources/StyleGAN2_ADA/generated_images/'
 
 #GCPのTTSを利用するためのAPI key
 #see : https://cloud.google.com/text-to-speech?hl=ja/96
-export API_KEY_PATH = 'src/GCP/key/ariesai-tts-aeb78ee6a87e.json'
+export API_KEY_PATH = 'src/GCP/key/ai-tts-abcdefghijk.json'
 
 #TTSで合成した音声データの保存先
 export SAVE_WAV_PATH  = '../resources/GCP/generated_speech/'

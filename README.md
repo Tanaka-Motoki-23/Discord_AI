@@ -1,5 +1,5 @@
 # Discord_AI
-Discord_AI 公開用プロジェクトレポジトリ
+Discord_AI 公開用プロジェクトリポジトリ
 
 ## リポジトリのクローン
 

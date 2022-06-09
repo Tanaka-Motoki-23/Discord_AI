@@ -1,7 +1,8 @@
 # Discord_AI
-Discord_AI 公開用プロジェクトレポジトリ
+Discord_AI 公開用プロジェクトリポジトリです。  
+Discord_AIとは、Discord上で動作することを想定し、AIによる自然言語対話や料理画像自動生成などの技術を活用したエンターテインメントAIです。
 
-## レポジトリのクローン
+## リポジトリのクローン
 
 ```bash
 git clone https://github.com/Tanaka-Motoki-23/Discord_AI.git

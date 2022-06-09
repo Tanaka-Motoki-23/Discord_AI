@@ -137,7 +137,7 @@ poetry.lock
 
 #Discord bot resource
 resources/
-discord_bot/latest.jpg
+tmp/
 discord_bot/setup.cfg
 discord_bot/src/GCP/
 

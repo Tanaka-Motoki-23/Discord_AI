@@ -10,6 +10,8 @@ services:
     volumes:
       - ./discord_bot/:/usr/src
       - ./resources/:/usr/resources
+      - ./tmp/:/usr/tmp
+
     deploy:
       resources:
         reservations:

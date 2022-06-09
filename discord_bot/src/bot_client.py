@@ -6,6 +6,8 @@ from discord.ext import commands
 
 # Bot Access Token
 TOKEN = os.environ.get("TOKEN")
+BOT_PREFIX = os.environ.get("BOT_PREFIX")
+
 # ログの設定
 # 読み込むコグ
 INITIAL_EXTENSIONS = [
@@ -17,13 +19,15 @@ INITIAL_EXTENSIONS = [
     "Cogs.Wolfram_Cog",
     "Cogs.Story_Cog",
     "Cogs.TTS_Cog",
+    "Cogs.Text2img_Cog",
+    "Cogs.Morse_Code_Cog",
 ]
 
 
 def bot_setup() -> discord.ext.commands.bot.Bot:
     intents = discord.Intents.default()
     intents.members = True
-    client = commands.Bot(command_prefix="ai.", intents=intents)
+    client = commands.Bot(command_prefix=BOT_PREFIX, intents=intents)
     for cog in INITIAL_EXTENSIONS:
         try:
             client.load_extension(cog)

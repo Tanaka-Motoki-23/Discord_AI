@@ -18,7 +18,7 @@ TWEET_ARCHIVE_PATH = os.environ.get("TWEET_ARCHIVE_PATH")
 MODEL_PATH = os.environ.get("MODEL_PATH")
 FREE_TALK_CHANNEL_ID = int(os.environ.get("FREE_TALK_CHANNEL_ID"))
 IMAGE_ARCHIVE_PATH = os.environ.get("IMAGE_ARCHIVE_PATH")
-
+TMP_PATH = os.environ.get("TMP_PATH")
 """
 FREE_TALK_CHANNEL_IDにおいて、自然言語で対話を行う。
 
@@ -268,7 +268,7 @@ class Talk_Cog(commands.Cog):
             else:
                 above_image = cv2.vconcat([above_image, horizontal_image])
 
-        send_image_path = "./latest.jpg"
+        send_image_path = TMP_PATH + "latest.jpg"
         cv2.imwrite(send_image_path, above_image)
 
         while True:

@@ -10,6 +10,7 @@ import sympy
 from discord.ext import commands
 
 IMAGE_ARCHIVE_PATH = os.environ.get("IMAGE_ARCHIVE_PATH")
+TMP_PATH = os.environ.get("TMP_PATH")
 
 """
 料理画像でファインチューニングしたStyleGAN2-ADAによって生成した画像を送信する。
@@ -131,7 +132,7 @@ class MESHI_Cog(commands.Cog):
                 else:
                     above_image = cv2.vconcat([above_image, horizontal_image])
 
-            send_image_path = "./latest.jpg"
+            send_image_path = TMP_PATH + "latest.jpg"
             cv2.imwrite(send_image_path, above_image)
 
             while True:

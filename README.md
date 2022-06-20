@@ -176,3 +176,12 @@ StyleGAN2_ADAによって生成した料理画像を送信します。
 <prefix>MESHI generate "num"
 ```
 ![スクリーンショット 2022-04-25 201101](https://user-images.githubusercontent.com/104173409/165078648-449bc55f-7913-484a-9873-6e395434690f.png)
+
+## 6. GLIDE-3を利用したテキストから画像生成機能
+OpenAI GLIDE-3によってテキストから画像を生成します。
+ローカルで推論しており画像の生成には1分ほどかかる場合があります。
+```
+#画像生成
+<prefix>Text2img "prompt"
+```
+![GLIDE-3](https://user-images.githubusercontent.com/104173409/174519015-439adf1c-0632-40e5-bdcd-afd6205ed210.png)

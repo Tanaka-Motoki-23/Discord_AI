@@ -46,6 +46,10 @@ export MODEL_PATH = '../resources/GPT-2/model_param/checkpoint-150000/'
 # StyleGAN2-ADAで生成した料理画像群
 export IMAGE_ARCHIVE_PATH = '../resources/StyleGAN2_ADA/generated_images/'
 
+# GLIDE-3の学習済みモデル
+export GLIDE3_MODEL_PATH = '../resources/GLIDE_3/glide_model_cache/base.pt'
+export GLIDE3_MODEL_UP_PATH = '../resources/GLIDE_3/glide_model_cache/upsample.pt'
+
 #GCPのTTSを利用するためのAPI key
 #see : https://cloud.google.com/text-to-speech?hl=ja/96
 export API_KEY_PATH = 'src/GCP/key/ai-tts-abcdefghijk.json'
@@ -53,7 +57,7 @@ export API_KEY_PATH = 'src/GCP/key/ai-tts-abcdefghijk.json'
 #TTSで合成した音声データの保存先
 export SAVE_WAV_PATH  = '../resources/GCP/generated_speech/'
 
-#モールス信号Giあ
+#モールス信号Gifアニメーション生成のためのリソース画像
 export Light_IMAGE_PATH = '../resources/Morse_image/'
 
 #OpneAI APIをを利用するためAPI keyとOrganization ID
@@ -111,7 +115,9 @@ make down
  - StyleGAN2-ADAで生成した料理画像群
  - TTSを利用するためのCGPのAPI key
  - GPT-3を利用するためのOpenAI APIのAPI key
-
+ - GLIDE-3の学習済みモデル
+ - モールス信号アニメーション生成のためのリソース画像
+ 
 #### 実行コマンド
 ##### コンテナを立ち上げた状態で以下のコマンドを実行する
 Botクライアントの起動

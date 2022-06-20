@@ -190,8 +190,9 @@ OpenAI GLIDE-3によってテキストから画像を生成します。
 テキストをモールス信号に変換してGIFアニメーションとして出力します。
 テキストはローマ字や英文だけでなく、漢字を含む日本語にも対応しています。
 GIFアニメーションに使う画像は・と―に対応する画像を2枚用意しておく必要があります。
+オプションでsizeを指定することで、GIFアニメーションのファイルサイズの最大値を制限できます。
 ```
 #アニメーション生成
-<prefix>Morse "prompt"
+<prefix>Morse "prompt" size
 ```
 ![morse](https://user-images.githubusercontent.com/104173409/174519522-abb0fbbd-a67e-4014-9d2a-91f321e46f44.png)

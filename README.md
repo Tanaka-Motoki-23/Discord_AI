@@ -50,42 +50,42 @@ export IMAGE_ARCHIVE_PATH = '../resources/StyleGAN2_ADA/generated_images/'
 export GLIDE3_MODEL_PATH = '../resources/GLIDE_3/glide_model_cache/base.pt'
 export GLIDE3_MODEL_UP_PATH = '../resources/GLIDE_3/glide_model_cache/upsample.pt'
 
-#GCPのTTSを利用するためのAPI key
-#see : https://cloud.google.com/text-to-speech?hl=ja/96
+# GCPのTTSを利用するためのAPI key
+# see : https://cloud.google.com/text-to-speech?hl=ja/96
 export API_KEY_PATH = 'src/GCP/key/ai-tts-abcdefghijk.json'
 
-#TTSで合成した音声データの保存先
+# TTSで合成した音声データの保存先
 export SAVE_WAV_PATH  = '../resources/GCP/generated_speech/'
 
-#モールス信号Gifアニメーション生成のためのリソース画像
+# モールス信号Gifアニメーション生成のためのリソース画像
 export Light_IMAGE_PATH = '../resources/Morse_image/'
 
-#OpneAI APIをを利用するためAPI keyとOrganization ID
+# OpneAI APIをを利用するためAPI keyとOrganization ID
 #see : https://openai.com/api/
 export OPENAI_API_KEY = '***********************************************************************'
 export OPENAI_ORGANIZATION  = "***************************"
 
-#Botを利用するサーバーの設定
+# Botを利用するサーバーの設定
 #Discrord Botのアクセストークン
 #see:https://discordpy.readthedocs.io/ja/latest/discord.html
 export TOKEN = '***********************************************************************'
 
-#自然言語対話Botを利用するチャンネルID
+# 自然言語対話Botを利用するチャンネルID
 export FREE_TALK_CHANNEL_ID = 11111111111111111
 
-#TTSを利用するメインのボイスチャンネルID
+# TTSを利用するメインのボイスチャンネルID
 export DEFAULT_VOICE_CHANNEL_ID = 11111111111111112
 
-#TTSで発言させるテキストチャンネルID
+# TTSで発言させるテキストチャンネルID
 export TTS_CHANNEL_ID = 11111111111111113
 
-#匿名機能を利用して会話するテキストチャンネルID
+# 匿名機能を利用して会話するテキストチャンネルID
 export ANONYMOUS_CHANNEL_ID = 11111111111111114
 
-#コマンドPrefix
+# コマンドPrefix
 export BOT_PREFIX='AI.' 
 
-#モジュールのPATH
+# モジュールのPATH
 export PYTHONPATH="src/Cogs"
 ```
 

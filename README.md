@@ -53,6 +53,9 @@ export API_KEY_PATH = 'src/GCP/key/ai-tts-abcdefghijk.json'
 #TTSで合成した音声データの保存先
 export SAVE_WAV_PATH  = '../resources/GCP/generated_speech/'
 
+#モールス信号Giあ
+export Light_IMAGE_PATH = '../resources/Morse_image/'
+
 #OpneAI APIをを利用するためAPI keyとOrganization ID
 #see : https://openai.com/api/
 export OPENAI_API_KEY = '***********************************************************************'
@@ -74,6 +77,12 @@ export TTS_CHANNEL_ID = 11111111111111113
 
 #匿名機能を利用して会話するテキストチャンネルID
 export ANONYMOUS_CHANNEL_ID = 11111111111111114
+
+#コマンドPrefix
+export BOT_PREFIX='AI.' 
+
+#モジュールのPATH
+export PYTHONPATH="src/Cogs"
 ```
 
 #### dockerの設定
@@ -81,7 +90,7 @@ dockerコンテナのビルド
 ```
 make build_bot
 ```
-ビルドされたコンテナを立ち上げる
+コンテナを立ち上げる
 ```
 make up_bot
 ```
@@ -92,13 +101,6 @@ make exec_bot
 コンテナを停止させる
 ```
 make down
-```
-#### linterとformatterの実行
-```
-make format
-```
-```
-make lint
 ```
 - - -
 
